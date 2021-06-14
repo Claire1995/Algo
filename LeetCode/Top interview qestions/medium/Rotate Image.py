@@ -8,8 +8,8 @@ class Solution(object):
                 nx = n-1-y
                 ny = x
                 nm[ny][nx] = matrix[y][x]
-        print(nm)
+        return print(nm)
                 
-Solution.rotate(0, [[1,2],[3,4]])
+Solution.rotate(0, [[1,2,3],[4,5,6],[7,8,9]])
 
         
